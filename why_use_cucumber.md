@@ -12,6 +12,6 @@
 
 .notes testing continuously can be done without Cucumber, though
 
-- To have fewer defects by testing continuously
-- To standardize language between Dev, QA, & BA
-- Separating test specification from test implementation
+- Have fewer defects by testing continuously
+- Common language between Dev, QA, & BA
+- Separate test specification from test implementation

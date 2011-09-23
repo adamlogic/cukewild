@@ -11,16 +11,16 @@
 !SLIDE incremental bullets
 # Test-driven Development (TDD)
 
-* Writing tests before writing code
-* Red, Green, Refactor
 * Test-first Development
+* Writing tests before writing code
 * Programmer-focused
+* Red, Green, Refactor
 
 !SLIDE incremental bullets
 # Behavior-driven Development (BDD)
 
+* Acceptance Test-driven Development (ATDD)
 * TDD at the feature level
-* ATDD
 * Include the entire development team
 
 !SLIDE incremental bullets
@@ -46,18 +46,20 @@
 
 * An automated testing tool
 * Focuses on acceptance testing
+* Uses plain English to describe expected behavior
 * Separates test specification from test implementation
-* Uses plain English to specify features
 
 !SLIDE incremental bullets
 # Gherkin
 
 * The "plain English" language that powers Cucumber
+* Natural yet structured
 * Broken into files that describe a single feature
 
-!SLIDE smaller
+!SLIDE small
 
     Feature: Providing contrived examples
+
       In order for my audience to understand Cucumber
       As a presenter
       I want to show examples
@@ -86,7 +88,7 @@
 # Regular Expressions
 
 * Pattern matching
-* Example: /I am on the (\w+) slide/
+* Example: `/I am on the (\w+) slide/`
 * The glue between Gherkin and step definitions
 
 !SLIDE incremental bullets
@@ -96,4 +98,4 @@
 * Watir & Selenium have been the heavyweights
 * Both support multiple programming languages
 * Web-driver has merged with Selenium
-* Any can be used with Cucumber to drive a web app
+* Can be used with Cucumber to drive a web app
