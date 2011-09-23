@@ -29,7 +29,6 @@
 .notes obviously manual tests will always be necessary
 
 * Scripted tests than can be run repeatedly
-* Superset of TDD and BDD
 * Does not require TDD or BDD
 * Automated tests are code!
 
@@ -57,7 +56,6 @@
 * Broken into files that describe a single feature
 
 !SLIDE smaller
-# gherkin_example.feature
 
     Feature: Providing contrived examples
       In order for my audience to understand Cucumber
@@ -75,17 +73,21 @@
 # Feature/Scenario/Step
 
 * A hierarchy of how the tests are written
-* 1 file = 1 feature
+* One file = one feature
 * (with one or more scenarios)
 
 !SLIDE incremental bullets
 # Step definition
 
-.notes regular expression patterns are the glue
-
 * The code that performs the work of your test
-* Uses regular expressions to match Gherkin steps
 * Not necessarily written in Ruby
+
+!SLIDE incremental bullets
+# Regular Expressions
+
+* Pattern matching
+* Example: /I am on the (\w+) slide/
+* The glue between Gherkin and step definitions
 
 !SLIDE incremental bullets
 # Watir/Selenium/Web-driver
