@@ -1,0 +1,12 @@
+{
+  "name": "Cucumber in the Wild",
+  "sections": [
+    "intro.md",
+    "what_is_cucumber.md",
+    "# Demo",
+    "why_use_cucumber.md",
+    "lessons_learned.md",
+    "pain_points.md",
+    "outro.md"
+  ]
+}
